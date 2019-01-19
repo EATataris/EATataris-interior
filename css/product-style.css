@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/*начало хэдера*/
+
+.header {
+    background-color:  #f5f5f5;
+    height: 360px;
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    width: 560px;
+    height: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    float: right;
+    margin-right: 211px;
+    margin-top: 67px;
+}
+
+#search {
+    display: block;
+    margin-top: 10px;
+}
+
+#search:hover {
+    box-shadow: none;
+}
+
+.menu a {
+    display: block;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 13px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #212121;
+    font-weight: 700;
+    /*text-shadow: 0.5px 0.5px 0 #212121, -0.5px -0.5px 0 #212121, -0.5px 0.5px 0 #212121, 0.5px -0.5px 0 #212121;*/
+    box-shadow: inset 0 -2px 0px 0px #212121;
+}
+
+.menu .active {
+    color: #212121;
+    font-weight: 700;
+    box-shadow: inset 0 -2px 0px 0px #212121;
+}
+
+h1 {
+    margin-top: 160px;
+    margin-left: 101px;
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+}
+
+/*конец хэдера*/
+/*начало products range*/
+.products_range {
+    height: 1965px;
+    overflow: hidden;
+}
+
+.menu_2 {
+    width: 661px;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 98px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu_2 .li {
+    display: block;
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 55px;
+    padding: 0px 18px;
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+.menu_2:hover {
+    box-shadow: inset 0 -1px 0px 0px #6c6c6c;
+}
+
+.menu_2 .li:hover {
+    color: #212121;
+    font-weight: 700;
+    /*text-shadow: 0.5px 0.5px 0 #212121, -0.5px -0.5px 0 #212121, -0.5px 0.5px 0 #212121, 0.5px -0.5px 0 #212121;*/
+    box-shadow: inset 0 -2px 0px 0px #212121;
+    
+}
+
+.products a {
+    height: 370px;
+}
+
+.products a:hover {
+    box-shadow: 0px 0px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+}
+
+.products {
+    height: 1570px;
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 auto;
+}
+
+.arrow {
+    width: 70px;
+    height: 70px;
+    margin: 50px auto 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow a {
+    display: block;
+    height: 29px;
+}
+
+.arrow:hover {
+    background-color: #d8f4fe;
+}
+
+/*начало exclusive*/
+.exclusive {
+    height: 683px;
+}
+
+.promo_1 {
+    width: 683px;
+    height: 683px;
+    background-image: url(../img/promo-img1.jpg);
+    float: left;
+}
+
+.text_inside {
+    width: 373px;
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.text_inside h3 {
+    color:  #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.text_inside p {
+    margin-top: 20px;
+    margin-left: 2px;
+    color:  #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
+}
+
+.text_inside a {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.text_inside a:hover {
+    background: #ffffff url('../img/arrow.png') no-repeat 173px 16px;
+}
+
+.promo_2 {
+    width: 683px;
+    height: 683px;
+    background-image: url(../img/promo-img.jpg);
+    overflow: hidden;
+}
+/*конец exclusive*/
+
+/*начало footer*/
+.footer {
+    height: 384px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.contacts {
+    height: 147px;
+    width: 1169px;
+    margin: 120px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_us {
+    width: 221px;
+    height: 147px;
+}
+
+.useful_information {
+    width: 422px;
+    height: 147px;
+}
+
+.stay_in_touch {
+    width: 370px;
+    height: 147px;
+}
+
+.ct {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.contact_us div {
+    height: 102px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.contact_us div p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: -0.15px;
+    text-transform: none;
+}
+
+.useful_information .common {
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 {
+    width: 128px;
+}
+
+.block2 {
+    width: 180px;
+}
+
+.block1, .block2 p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.stay_in_touch p {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+.lsit {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 107px;
+}
+
+form {
+    width: 370px;
+    border-width: 1px;
+    border-color:  #d9dee1;
+    border-style: solid;
+    background-color:  #ffffff;
+    display: inline-block;
+}
+
+button {
+    border: none;
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input[type="email"] {
+    width: 303px;
+    height: 46px;
+    border-width: 0px;
+    border-color:  #d9dee1;
+    border-style: solid;
+    background-color:  #ffffff;
+    padding-left: 19px;
+}
+
+/*стиль плейсхолдера
+input::placeholder {
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}*/
+
+/*или так для кросс-браузерности*/
+
+::-webkit-input-placeholder {
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+::-moz-placeholder {
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+:-moz-placeholder {
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+:-ms-input-placeholder {
+    font-family: Montserrat;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+.copyright {
+    width: 1169px;
+    height: 28px;
+    margin: 59px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright p {
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.socialnets {
+    width: 129px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialnets a {
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+}
+
+.socialnets a:hover {
+    background-color: #ccc;;
+}
+/*конец футера*/
